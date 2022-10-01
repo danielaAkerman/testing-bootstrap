@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 34px;
+  background-color: coral;
+  gap: 10px;
+  padding: 10px;
+}
+.nav-button {
+  border: none;
+  width: 75px;
+}
+
+.nav-button:hover {
+  background-color: darkcyan;
+  cursor: pointer;
+}
+.img-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 34px;
+  color: rgb(2, 134, 101);
+}
+
+.image-title {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
