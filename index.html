@@ -6,88 +6,193 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
     <title>Actividad Asicrónica</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header class="header">
-        <nav class="nav">
-<button class="nav-button"></button>
-<button class="nav-button"></button>
-<button class="nav-button"></button>
-<button class="nav-button"></button>
+      <!-- <nav class="nav">
+        <button class="nav-button"></button>
+        <button class="nav-button"></button>
+        <button class="nav-button"></button>
+        <button class="nav-button"></button>
+      </nav> -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link nav-button" href="#">Home</a>
+              <a class="nav-link nav-button" href="#">Features</a>
+              <a class="nav-link nav-button" href="#">Pricing</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-        </nav>
-      <a name="nombre_marcador">
-        <h1 class="title" id="title">Título de mi página</h1>
-      </a>
+      <a name="nombre_marcador"> </a>
     </header>
 
-    <p class="text">
-      <strong>Lorem ipsum</strong> dolor sit,
-      <em>amet consectetur adipisicing elit.</em> Incidunt corrupti excepturi
-      sapiente unde culpa illo in ad nostrum eum voluptate quas a inventore,
-      eius sunt vitae rem possimus minus assumenda.
-      <strong>Lorem ipsum</strong> dolor sit,
-      <em>amet consectetur adipisicing elit.</em> Incidunt corrupti excepturi
-      sapiente unde culpa illo in ad nostrum eum voluptate quas a inventore,
-      eius sunt vitae rem possimus minus assumenda.
-    </p>
-    <div class="img-content" id="paraguas">
-      <h2 class="image-title">Chica con paraguas enlaza a Google</h2>
-      <a href="http://google.com.ar">
-        <img
-          src="./img/kateryna-hliznitsova-ODIKce5SKnY-unsplash.jpg"
-          alt="girl"
-          class="image"
-        />
-      </a>
-    </div>
+    <div class="container">
+      <h1 class="title my-3" id="title">Título de mi página</h1>
+      <div class="row">
+        <!-- Primer post -->
 
-    <p class="text">
-      <strong>Lorem ipsum</strong> dolor sit,
-      <em>amet consectetur adipisicing elit.</em> Fugit minus vel ab quaerat,
-      beatae debitis adipisci cum voluptatibus nesciunt corrupti aperiam
-      voluptas itaque voluptates sequi, exercitationem eum hic facere. Vero.
-      <strong>Lorem ipsum</strong> dolor sit,
-      <em>amet consectetur adipisicing elit.</em> Fugit minus vel ab quaerat,
-      beatae debitis adipisci cum voluptatibus nesciunt corrupti aperiam
-      voluptas itaque voluptates sequi, exercitationem eum hic facere. Vero.
-    </p>
-    <div class="img-content" id="sumergida">
-      <h2 class="image-title">Chica en el agua enlaza a Unplash</h2>
-      <a href="https://unsplash.com/es">
-        <img
-          src="https://images.unsplash.com/photo-1663694719768-411f01631de2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
-          alt="girl"
-          class="image"
-        />
-      </a>
-    </div>
+        <div class="col-md-4 my-3">
+          <p class="text">
+            <strong>Lorem ipsum</strong> dolor sit,
+            <em>amet consectetur adipisicing elit.</em> Incidunt corrupti
+            excepturi sapiente unde culpa illo in ad nostrum eum voluptate quas
+            a inventore, eius sunt vitae rem possimus minus assumenda.
+            <strong>Lorem ipsum</strong> dolor sit,
+            <em>amet consectetur adipisicing elit.</em> Incidunt corrupti
+            excepturi sapiente unde culpa illo in ad nostrum eum voluptate quas
+            a inventore, eius sunt vitae rem possimus minus assumenda.
+          </p>
+          <div class="img-content" id="paraguas">
+            <h2 class="image-title">Chica con paraguas enlaza a Google</h2>
+            <a href="http://google.com.ar">
+              <img
+                src="./img/kateryna-hliznitsova-ODIKce5SKnY-unsplash.jpg"
+                alt="girl"
+                class="image"
+              />
+            </a>
+          </div>
+        </div>
 
-    <p class="text">
-      <strong>Lorem ipsum</strong> dolor sit,
-      <em>amet consectetur adipisicing elit.</em> Fugit minus vel ab quaerat,
-      beatae debitis adipisci cum voluptatibus nesciunt corrupti aperiam
-      voluptas itaque voluptates sequi, exercitationem eum hic facere. Vero.
-      <strong>Lorem ipsum</strong> dolor sit,
-      <em>amet consectetur adipisicing elit.</em> Fugit minus vel ab quaerat,
-      beatae debitis adipisci cum voluptatibus nesciunt corrupti aperiam
-      voluptas itaque voluptates sequi, exercitationem eum hic facere. Vero.
-    </p>
-    <div class="img-content" id="morena-rulos">
-      <h2 class="image-title">Chica hermosa enlaza al título de esta page</h2>
-      <a href="#nombre_marcador">
-        <img
-          src="https://images.unsplash.com/photo-1663699916826-7af23b0ea6fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
-          alt="girl"
-          class="image"
-        />
-      </a>
+        <!-- otro -->
+
+        <div class="col-md-4 my-3">
+          <p class="text">
+            <strong>Lorem ipsum</strong> dolor sit,
+            <em>amet consectetur adipisicing elit.</em> Fugit minus vel ab
+            quaerat, beatae debitis adipisci cum voluptatibus nesciunt corrupti
+            aperiam voluptas itaque voluptates sequi, exercitationem eum hic
+            facere. Vero. <strong>Lorem ipsum</strong> dolor sit,
+            <em>amet consectetur adipisicing elit.</em> Fugit minus vel ab
+            quaerat, beatae debitis adipisci cum voluptatibus nesciunt corrupti
+            aperiam voluptas itaque voluptates sequi, exercitationem eum hic
+            facere. Vero.
+          </p>
+          <div class="img-content" id="sumergida">
+            <h2 class="image-title">Chica en el agua enlaza a Unplash</h2>
+            <a href="https://unsplash.com/es">
+              <img
+                src="https://images.unsplash.com/photo-1663694719768-411f01631de2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+                alt="girl"
+                class="image"
+              />
+            </a>
+          </div>
+        </div>
+
+        <!-- otro -->
+
+        <div class="col-md-4 my-3">
+          <p class="text">
+            <strong>Lorem ipsum</strong> dolor sit,
+            <em>amet consectetur adipisicing elit.</em> Fugit minus vel ab
+            quaerat, beatae debitis adipisci cum voluptatibus nesciunt corrupti
+            aperiam voluptas itaque voluptates sequi, exercitationem eum hic
+            facere. Vero. <strong>Lorem ipsum</strong> dolor sit,
+            <em>amet consectetur adipisicing elit.</em> Fugit minus vel ab
+            quaerat, beatae debitis adipisci cum voluptatibus nesciunt corrupti
+            aperiam voluptas itaque voluptates sequi, exercitationem eum hic
+            facere. Vero.
+          </p>
+          <div class="img-content" id="morena-rulos">
+            <h2 class="image-title">
+              Chica hermosa enlaza al título de esta page
+            </h2>
+            <a href="#nombre_marcador">
+              <img
+                src="https://images.unsplash.com/photo-1663699916826-7af23b0ea6fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+                alt="girl"
+                class="image"
+              />
+            </a>
+          </div>
+        </div>
+
+        <!-- Fin del post -->
+      </div>
+
+      <h2>Listado de personas</h2>
+      <table class="table table-dark table-striped my-3">
+        <thead>
+          <tr>
+            <th>Edad</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>31</td>
+            <td>Daniela</td>
+            <td>Akerman</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Lucía</td>
+            <td>Akerman</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>Daniela</td>
+            <td>Akerman</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Lucía</td>
+            <td>Akerman</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 class="my-3">Registro</h2>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>
     </div>
-    <!-- <strong> y <b> son etiquetas para texto en negrita. -->
-    <!-- <strong aporta valor semántico, indicando que este texto es importante> -->
-    <!-- <b> solo resalta texto visualmente, sin aportarle valor -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
-  <footer class="footer">
+  <footer class="footer mt-4">
     <div class="footer-div">Este es el footer de la page</div>
   </footer>
+  <!-- <strong> y <b> son etiquetas para texto en negrita. -->
+  <!-- <strong aporta valor semántico, indicando que este texto es importante> -->
+  <!-- <b> solo resalta texto visualmente, sin aportarle valor -->
 </html>
